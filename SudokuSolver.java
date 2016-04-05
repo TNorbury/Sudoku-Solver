@@ -13,7 +13,6 @@ public class SudokuSolver
    private final static int NUM_OF_ROW_COL_SUBSECTIONS = 3;
    private final static int NO_OPEN_SPACE_FOUND        = -1;
 
- //Hello
    /**
     * Creates a sudoku puzzle given the input from the user.
     * 
@@ -34,7 +33,7 @@ public class SudokuSolver
 
       // Set the delimiting pattern to include commas and new lines.
       input.useDelimiter("[\\r\\n,]+");
-
+      
       // Get the first line of input that dictates the puzzle's layout.
       puzzleValues = input.next().split("");
 
